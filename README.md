@@ -1,3 +1,8 @@
+.env example
+NUXT_PUBLIC_SUPABASE_URL=<https://...supabase.co>
+NUXT_PUBLIC_SUPABASE_KEY=<sb_publishable_...>
+NUXT_SUPABASE_SECRET_KEY=<sb_secret_...>
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
