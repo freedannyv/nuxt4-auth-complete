@@ -1,0 +1,52 @@
+.card-heading {
+  @apply text-lg font-semibold text-gray-900;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-sm border border-gray-200 p-6;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.label-title {
+  @apply font-medium text-gray-900;
+}
+
+.label-title-secondary {
+  @apply text-sm font-medium text-gray-700 mb-2;
+}
+
+.btn-blue {
+  @apply bg-indigo-600 text-white hover:bg-indigo-700 px-4 py-2 rounded-lg transition-colors;
+}
+
+.btn-gray {
+  @apply border border-gray-300 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-lg transition-colors;
+}
+
+.btn-red {
+  @apply bg-red-600 text-white hover:bg-red-700 px-4 py-2 rounded-lg transition-colors;
+}
+
+.select-dropdown {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500;
+} 
+
+.selector-checkbox {
+  @apply w-11 h-6 bg-gray-200 rounded-full;
+}
+
+
+.tab {
+  @apply py-2 px-1 border-b-2 font-medium text-sm transition-colors;
+}
+
+.tab-active {
+  @apply border-indigo-600 text-indigo-600;
+}
+
+.tab-inactive {
+  @apply border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300;
+}
